@@ -1,0 +1,48 @@
+.categoryPageDiv{
+	max-width: 1013px;
+	margin: 10px auto;
+}
+.categorySortBar{
+	background-color: #FAF9F9;
+	margin: 40px 20px 20px 20px;
+	padding: 4px;
+}
+.categorySortBarTable{
+	border-collapse: collapse;/*单元格之间没有空隙*/
+	display: inline-block;
+}
+.glyphicon{
+	font-size: 10px;
+}
+.categorySortBarTable td{
+	height: 17px;
+	font-size: 12px;
+	border:1px solid #CCCCCC;
+	padding: 3px;
+}
+.grayColumn{
+	background-color: #F1EDEC;
+}
+.categorySortBarTable td a{
+	color: #806F66;
+}
+.categorySortBarTable td a:hover{
+	color: #C40000;
+}
+.categorySortBarTable input{
+	border-width: 0px;  /*隐藏边框*/
+	height: 15px;
+	width: 50px;
+}
+..priceMiddleColumn{
+	width: 5px;
+	vertical-align: middle;
+	color: #CCCCCC;
+}
+.categorySortBarTable td:hover{
+	background-color:#F1EDEC;
+}
+body{
+	font-size: 12px ;
+	font-family: Arial;
+}

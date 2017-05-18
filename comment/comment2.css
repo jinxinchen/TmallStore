@@ -1,0 +1,90 @@
+.reviewDiv{
+	max-width: 1013px;
+	margin: 10px auto;
+}
+.reviewStasticsDiv{
+	margin-top: 20px;
+}
+.reviewStasticsLeft{
+	width: 180px;
+	float: left;
+}
+.reviewStasticsLeftTop{
+	background-color: #C40000;
+	height: 6px;
+}
+.reviewStasticsLeftContent{
+	line-height: 29px;
+	border-left: 1px solid #D5D4D4;
+	border-right: 1px solid #D5D4D4;
+	background-color: #F6F5F1;
+	text-align: center;
+	font-size: 14px;
+	color: #363535;
+	font-weight: bold;
+}
+.reviewStasticsLeftFoot{
+	height: 6px;
+	border-left: 1px solid #D5D4D4;
+	border-bottom: 1px solid #D5D4D4;
+	background-color: #F6F5F1;
+}
+.reviewStasticsNumber{
+	color: #284CA5;
+}
+.reviewStasticsRight{
+	overflow: hidden;
+	/*自动填满右边*/
+}
+.reviewStasticsRightEmpty{
+	height: 35px;
+}
+.reviewStasticsFoot{
+	background-color: #F6F5F1;
+	border: 1px solid #D5D4D4;
+	border-left-width: 0px;
+	height: 6px;
+}
+.makeReviewDiv{
+	border: 1px solid #D1CCC8;
+	margin: 20px 0px;
+	background-color: #EFEFEF;
+}
+.makeReviewText{
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin: 20px 40px;
+}
+.makeReviewTable{
+	margin: 20px 40px;
+	font-size: 12px;
+}
+.makeReviewTable td{
+	border: 1px solid #E7E7E7;
+	padding: 10px;
+	background-color: white;
+}
+.makeReviewTable textarea{
+	border-width: 0px;
+	resize: none;
+	width: 420px;
+	height: 120px;
+}
+.makeReviewTableFirstTD{
+	background-color: #F6F6F6;
+}
+.makeReviewButtonDiv{
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+}
+.makeReviewButtonDiv button{
+	width: 72px;
+	height: 26px;
+	border-radius: 2px;
+	background-color: #C40000;
+	color: white;
+	border-width: 0px;
+	font-weight: bold;
+}

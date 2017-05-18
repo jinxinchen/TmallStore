@@ -1,0 +1,84 @@
+.productDetailDiv{
+	width: 790px;
+	margin: 40px auto;
+}
+.productDetailTopPart{
+	border: 1px solid #DFDFDF;
+	border-left-width:0px; 
+}
+.selected{
+	border-left: 1px solid #cfbfb1;
+	border-right: 1px solid #cfbfb1;
+	color: #b10000;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 46px;
+	width: 90px;
+	text-align: center;
+	position: relative;
+	/*相对定位，为的是下一步使用:before新增加的元素做绝对定位。 因为绝对定位是基于定位了的父元素*/
+}
+/*使用:before为超链上方加一个天猫色的横条*/
+.selected:before{
+	content:"";
+	display: block;
+	border-width: 1px;
+	border-color: #b00000;
+	border-style: solid;
+	width: 90px;
+	height: 0;
+	position: absolute;
+	top: -1px;
+	margin-left: -1px;
+	/*左外边距: -1px，向左边移动向左边移动一个像素，导致和左边的边框重合*/
+}
+/*使用:after 为超链上方加一个天猫色的美人尖*/
+.selected:after{
+	content: "";
+	display: block;
+	border-color: #b00000 transparent transparent;
+	/*美人尖的原理是只有上边框，其他边框是透明色，#b
+	00000 transparent transparent; 这种写法既表示只有上边框有颜色，其他都是透明色*/
+	border-style: solid;
+	border-width: 5px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	margin-left: -5px;
+}
+.productDetailTopReviewLink{
+	padding: 0px 20px;
+	border-right: 1px dotted #D2D2D2;
+	color: #333333;
+}
+.productParamterPart{
+	border: 1px solid #DFDFDF;
+	padding: 40px;
+}
+.productParamter{
+	color: #999999;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.productParamterList span{
+	display: block;
+	width: 220px;
+	float: left;
+	padding: 8px 0px;
+	color: #666666;
+}
+.productDetailImagesPart img{
+	display: block;
+	width: 790px;
+	margin:20px 0px;
+}
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+a:hover{
+	text-decoration:none;
+	color: #C40000;
+}

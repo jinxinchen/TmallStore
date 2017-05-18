@@ -1,0 +1,86 @@
+body,table{
+	font-size: 12px;
+	font-family: Arial;
+}
+.confirmPayPageDiv{
+	max-width: 1013px;
+	margin: 10px auto;
+}
+.confirmPayImageDiv{
+	margin:5px auto 80px auto;
+	width: 900px;
+	position: relative;
+	/*这里使用相对定位的目的是为了子元素的时间信息可以使用绝对定位*/
+}
+.confirmPayImageDiv div{
+	color: #999999;
+}
+.confirmPayTime3{
+	position: absolute;
+	top: 100px;
+	left: 400px;
+}
+.confirmPayTime2{
+	position: absolute;
+	top: 100px;
+	left: 190px;
+}
+.confirmPayTime1{
+	position: absolute;
+	top: 100px;
+	left: -20px;
+}
+.confirmPayOrderInfoText{
+	margin: 10px 10px 0px 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 15px;
+	/*下内边距*/
+	border-bottom: 1px solid #ADC8E6;
+	/*下边框*/
+}
+.confirmPayOrderItemDiv{
+	margin: 0px 20px;
+}
+.confirmPayOrderItemText{
+	margin: 20px 10px;
+	font-size: 14px;
+	font-weight:normal;
+	color: black;
+}
+.confirmPayOrderItemTable{
+	border: 1px solid #DDDDDD;
+	width: 100%;
+}
+.confirmPayOrderItemTable thead{
+	background-color: #E8F2FF;
+	height: 33px;
+}
+.confirmPayOrderItemTable tr{
+	border: 1px solid #DDDDDD;
+}
+table.confirmPayOrderItemTable th, table.confirmPayOrderItemTable td{
+	text-align: center;
+}
+.confirmPayOrderItemTable td{
+	padding: 20px;
+}
+.confirmPayOrderItemProductLink{
+	text-align: left !important;
+}
+.conformPayProductPrice{
+	font-size: 18px;
+	font-weight: bold;
+	color: #666666;
+}
+.confirmPayOrderItemSumPrice{
+	color: #C40000;
+}
+a{
+	color:#999;
+}
+a:hover{
+	text-decoration:none;
+	color: #C40000;
+}

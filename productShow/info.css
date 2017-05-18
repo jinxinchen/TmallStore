@@ -1,0 +1,187 @@
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+.infoInimgAndInfo{
+	padding: 0px 20px;
+	overflow: hidden; /*隐藏溢出部分。 结合图片div的float:left,就可以做到基本信息div和图片div水平摆放，并且基本信息div自动占用剩下所有的宽度*/
+}
+.productTitle{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 10px;
+}
+.productSubTitle{
+	color: #DD2727;
+	font-size: 12px;
+	margin: 0px 10px;
+}
+.juhuasuan{
+	background-color: #2DA77A;
+	color: white;
+	text-align: center; /*文本水平居中*/
+	line-height:40px;  /*文本垂直居中*/
+	margin-top: 10px;
+}
+.juhuasuanBig{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 黑体;
+}
+.juhuasuanTime{
+	font-weight: bold;
+	color: #FFC057;
+}
+.productPriceDiv{
+	background-image:url(../img/site/priceBackground.png);
+	height: 102px;
+	padding: 10px;
+	color: #666666;
+}
+.gouwujuanDiv{
+	margin-top: 5px;
+}
+.originalDiv{
+	margin-top: 5px
+}
+.originalPriceDesc{
+	color: #999999;
+	display: inline-block;
+	width: 68px;
+}
+.originalPrice{
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: line-through;
+}
+.promotionPriceYuan{
+	font-family: Arial;
+	font-size: 18px;
+	color: #C40000;
+}
+.promotionPrice{
+	color: #C40000;
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+}
+.promotionPriceDesc{
+	color: #999999;
+	display: inline-block;
+	width: 68px;
+	position: relative;
+	left: 0px;
+	top: -10px
+}
+.productSaleAndReviewNumber{
+	margin: 20px 0px;
+	border-top: 1px dotted #C9C9C9;
+	border-bottom: 1px dotted #C9C9C9;
+	padding: 10px;
+}
+.productSaleAndReviewNumber div{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	color: #999999;
+	font-size: 12px;
+}
+.productSaleAndReviewNumber div:first-child{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E5DFDA;
+}
+.productNumber{
+	color: #999999;
+}
+.productNumberSettingSpan{
+	border: 1px solid #999;
+	display: inline-block;
+	/*显示为内联，既可以设置大小，又能够不换行*/
+	width: 43px;
+	height: 32px;
+	padding-top:7px;
+	/*上内边距 7px，把input顶下去*/
+}
+.productNumberSetting{
+	border: 0px;
+	height: 80%;
+	width: 80%;
+}
+.updown img{
+	display: inline-block;
+	vertical-align: top;
+}
+.updown{
+	border: 1px solid #999;
+	display: block;
+	width: 20px;
+	height: 14px;
+	text-align: center;
+	padding-top:4px;
+}
+.updownMiddle{
+	height: 4px;
+	display: block;
+}
+.arrow{
+	display: inline-block;
+	/*显示为内联，既可以设置大小，又能够不换行*/
+	width: 22px;
+	height: 32px;
+	vertical-align:top;
+}
+.serviceCommitment{
+	margin: 20px 0px;
+}
+.serviceCommitmentDesc{
+	color: #999999;
+}
+.serviceCommitmentLink a{
+	color: #666666;
+}
+.buyDiv{
+	margin: 20px auto;
+	text-align: center;
+}
+.buyDiv button{
+	display: inline-block;
+	margin: 0px 10px;
+	width: 180px;
+	height: 40px;
+}
+.buyButton{
+	border: 1px solid #C40000;
+	background-color: #FFEDED;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #C40000;
+	font-family: arial;
+}
+.addCartButton{
+	border: 1px solid #C40000;
+	background-color: #C40000;
+	text-align: center;
+	line-height: 40px;
+	/*内容垂直居中*/
+	font-size: 16px;
+	color: white;
+	font-family: arial;
+}
+.glyphicon{
+	font-size: 12px;
+	margin-right: 8px;
+}
+a:hover{
+	text-decoration:none;
+	/*超链鼠标悬停的时候,没有下划线*/
+}
+.redColor{
+	color: #C40000;
+}
+.boldWord{
+	font-weight: bold;
+}

@@ -1,0 +1,84 @@
+.cartDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+    color: black;
+}
+.cartProductTable{
+    width: 100%;
+    font-size: 12px;
+}
+.cartProductItemTR{
+    border:1px solid #CCCCCC;
+}
+.cartProductItemTR td{
+    padding: 20px 20px;
+}
+.cartProductTable th{
+    font-weight: normal;
+    color: #3C3C3C;
+    padding: 20px 20px;
+}
+.cartProductImg{
+    padding: 1px;
+    border: 1px solid #EEEEEE;
+    width: 80px;
+    height: 80px;
+}
+.operation{
+    width: 120px;
+}
+.cartProductLinkOutDiv{
+    position: relative;
+    height: 80px;
+}
+.cartProductLink{
+    color: #3C3C3C;
+}
+.cartProductLink:hover{
+    color: #C40000;
+    text-decoration: underline;
+}
+.cartProductLinkInnerDiv{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+}
+.cartProductItemOringalPrice{
+    text-decoration: line-through;
+    color: #9C9C9C;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+.cartProductItemPromotionPrice{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #C40000;
+}
+/*调整数量div*/
+.cartProductChangeNumberDiv{
+    border: solid 1px #E5E5E5;
+    width: 80px;
+}
+.cartProductChangeNumberDiv a{
+    width: 14px;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.cartProductChangeNumberDiv input{
+    border:1px solid #AAAAAA;
+    width: 42px;
+    display: inline-block;
+}
+.cartProductItemSmallSumPrice{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #C40000;
+}
+.selectAllItem{
+    cursor: pointer;
+}

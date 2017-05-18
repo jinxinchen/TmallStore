@@ -1,0 +1,63 @@
+.payedDiv{
+	border: 1px solid #D4D4D4;
+	max-width: 1013px;
+	margin: 10px auto 20px auto;
+}
+.payedTextDiv{
+	height: 61px;
+	background-color: #ECFFDC;
+	padding: 17px 0px 0px 25px;
+}
+.payedTextDiv span{
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.payedAddressInfo{
+	padding: 26px 35px;
+}
+.payedAddressInfo li{
+	background-image:url(../img/site/li_dot.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-attachment: scroll;
+	background-position: 0px 13px;
+	list-style-type: none; /*去掉原来的风格*/
+	color: #333333;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+.payedInfoPrice{
+	color: #B10000;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: arial;
+}
+.payedCheckLinkDiv{
+	margin-left: 38px;
+}
+.payedCheckLink{
+	color: #2D8CBA;
+}
+.payedCheckLink:hover{
+	color: #2D8CBA;
+	text-decoration: underline;
+}
+.payedSeperateLine{
+	border-top: 1px dotted #D4D4D4;
+	margin: 0px 31px;
+}
+.warningDiv{
+	margin: 23px 45px;
+	color:black;
+}
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+.boldWord{
+	font-weight: bold;
+}
+.redColor{
+	color: #C40000;
+}

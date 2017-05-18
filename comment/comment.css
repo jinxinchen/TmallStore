@@ -1,0 +1,74 @@
+.reviewDiv{
+	max-width: 1013px;
+	margin: 10px auto;
+}
+/*图片所在div*/
+.reviewProductInfoImg{
+	border: 1px solid #E7E7E7;
+	width: 464px;
+	text-align: center;
+	float: left;
+}
+.reviewProductInfoRightDiv{
+	overflow: hidden;
+	/*隐藏超出部分*/
+	border-top: 1px solid #E7E7E7;
+	
+	padding: 30px 20px;
+	
+}
+.reviewProductInfoRightText{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.reviewProductInfoTable{
+	margin: 20px 10px;
+	font-size:12px;
+}
+.reviewProductInfoTable td{
+	padding-bottom: 5px;
+	color: #999999;
+}
+.reviewProductInfoTablePrice{
+	color: #C40000;
+	font-size: 20px;
+	font-weight: bold;
+}
+.reviewProductInfoTableSellNumber{
+	color: #C40000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.reviewProductInfoRightBelowDiv{
+	border: 1px solid #F6F5F3;
+	background-color: #FDFBFA;
+	height: 166px;
+	padding:16px 0px 16px 81px;
+}
+.reviewProductInfoRightBelowImg{
+	background-color: white;
+	border: 1px solid #E1E1E1;
+	display: inline-block;
+	width: 23px;
+	height: 42px;
+	background-image:url(../img/site/reviewLight.png);
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+.reviewProductInfoRightBelowText{
+	border: 1px solid #EFEFEF;
+	display: inline-block;
+	width: 200px;
+	height: 42px;
+	padding: 4px;
+	position: relative;
+	left: -4px;
+	top: -7px;
+	color: #666666;
+	font-size:12px;
+}
+.reviewProductImg{
+	width:400px;
+	height:400px;
+}

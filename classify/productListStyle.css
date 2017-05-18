@@ -1,0 +1,85 @@
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+.categoryPageDiv{
+	margin: 10px auto;
+	max-width: 1013px;
+}
+.categoryProducts{
+	padding: 0px 20px 40px 20px
+}
+.productUnit{
+	width: 225px;
+	height: 338px;
+	border:3px solid #fff;
+	background-color: white;
+	margin: 12px 5px;
+	float: left;
+}
+.productUnit:hover{
+	border:3px solid #C40000;
+}
+.productUnitFrame{
+	border: 1px solid #eee;
+	height: 100%;
+}
+.productUnitFrame:hover{
+	border: 1px solid #C40000;
+}
+.productImage{
+	width: 100%;
+	height: 190px;
+}
+.productPrice{
+	font-size: 20px;
+	color: #CC0000;
+	display: block;
+	padding-left: 4px;
+}
+.productLink{
+	margin: 10px 0px;
+	color: #333333;
+	display: block;   /*以块状显示自动换行*/
+	height: 34px;
+}
+.productLink:hover{
+	text-decoration: underline;
+	color: #C40000
+}
+.tmallLink{
+	margin: 10px 0px;
+	color: #999999;
+	display: block;
+	text-decoration: underline;
+}
+.tmallLink:hover{
+	text-decoration: underline;
+	color: #C40000;
+}
+.productInfo{
+	border-top:1px solid #EEEEEE;
+	color: #999999 
+}
+.productDealNumber{
+	font-weight: bold;
+	color: #B57C5B;
+}
+.productReview{
+	border-left: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+}
+.productReviewNumber{
+	font-weight: bold;
+	color: #3388BB;
+}
+.monthDeal,.productReview{
+	display: inline-block;
+	width: 90px;
+	height: 29px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.wangwang{
+	padding-left: 3px;
+}

@@ -1,0 +1,55 @@
+.boughtDiv{
+	max-width: 1013px;
+	margin: 10px auto; 
+}
+a{
+	color:#999;
+}
+a:hover{
+	text-decoration:none;
+	color: #C40000;
+}
+.orderType div{
+	border-bottom: 2px solid #E8E8E8;
+	float: left;
+}
+.orderType a{
+	border-right: 1px solid #E8E8E8;
+	display: inline-block; /*显示为内联块，这样下外边距才能生效*/
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+.orderType a:hover{
+	color:#C40000;
+	text-decoration: none;
+}
+div.orderType div.selectedOrderType{
+	border-bottom: 2px solid #C40000;
+}
+.selectedOrderType a{
+	color: #C40000;
+}
+.orderTypeLastOne{
+	overflow: hidden;
+	float: none !important;
+	border-bottom: 2px solid #E8E8E8;
+	height: 35px;
+}
+.noRightborder{
+	border-right-width:0px !important;  //去掉右边框 
+}
+.orderListTitleTable{
+	border:1px solid #E8E8E8;
+	width: 100%;
+	margin:20px 0px;
+	background-color: #F5F5F5;
+	text-align: center;
+	font-size: 12px; 
+}
+.orderListTitleTable td{
+	padding: 12px 0px;
+}

@@ -1,0 +1,56 @@
+.categoryMenu{
+   width: 200px;
+   background-color: #e2e2e3;
+   margin-left: 20px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin-top: 36px;
+   z-index: 1; 
+}
+.categoryMenu a{
+    color: #000;
+}
+.categoryMenu a:hover{
+    color: lightskyblue;
+    text-decoration: none;
+}
+.productsAsideCategorys{
+    width: 800px;
+    height: 510px;
+    background-color: white;
+    margin-left: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;/*需要使用z-index,把它放在"上面"*/
+}
+.row{
+    margin: 20px 80px 0px 80px;
+}
+.seperator{
+    margin-top: 20px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #e7e7e7;
+}
+.productsAsideCategorys a{
+    color: #999;
+    font-size: 14px;
+    margin: 8px;
+}
+.productsAsideCategorys a:hover{
+    color: #C40000;
+    text-decoration: none;
+}
+div.eachCategory{
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+div.eachCategory span{
+    margin-right: 10px;
+}
+div.eachCategory:hover{
+    background-color: white;
+}

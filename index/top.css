@@ -1,0 +1,23 @@
+body{
+	font-size: 12px;
+	font-family: Arial
+}
+a{
+	color:#999;
+}
+.redColor{
+	color: #C40000 !important;/*样式权重问题*/
+}
+nav.top{
+	background-color: #f2f2f2;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom:1px solid  #e7e7e7;/*下边缘有1个像素的实线边框，颜色是比背景色#f2f2f2略深的#e7e7e7*/
+}
+nav.top span, nav.top a{
+    color: #999;
+    margin: 0px 10px 0px 10px;
+}
+nav.top a:hover{
+    color: #C40000;
+}

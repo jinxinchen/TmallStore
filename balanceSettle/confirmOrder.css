@@ -1,0 +1,174 @@
+.buyPageDiv{
+	margin: 20px auto;
+	max-width: 1013px;
+}
+.productListTip{
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.productListTable{
+	width: 100%;
+	border-collapse: separate;/*边框折叠*/
+	font-size: 12px;
+}
+table.productListTable th{
+	color: #999999;
+	font-family: 宋体;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+table.productListTable tr.rowborder td{
+	background-color: #b2d1ff;
+	border-right: 2px solid #fff; /*右边框变白色*/
+	height: 3px;
+}
+.productListTableFirstColumn{
+	text-align: left !important;
+	/*第一列左对齐*/
+}
+.tmallbuy{
+	width: 15px;
+}
+.marketLink{
+	color: black;
+	font-size: 12px;
+	font-family: 宋体;
+	font-weight: normal;
+}
+.marketLink:hover{
+	color: black;
+	font-size: 12px;
+	text-decoration: underline;
+	font-family: 宋体;
+	font-weight: normal;
+}
+/*旺旺图标*/
+.wangwangGif{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image:url(../img/site/wangwang.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-attachment: scroll;
+	background-position: -83px -0px;
+	position: relative;
+	top: 8px;
+	left: 2px;
+}
+.productListTableTbody td{
+	text-align: center;
+}
+td.orderItemFirstTD{
+	text-align: left;
+}
+tr.orderItemTR td{
+	border-bottom: 1px solid #E5E5E5;
+	/*下边框*/
+}
+tr.orderItemTR td{
+	padding: 10px 0px;
+}
+.orderItemImg{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #E9E9E9;
+}
+td.orderItemProductInfo{
+	text-align:left !important;
+}
+td.orderItemProductInfo img{
+	height: 16px;
+}
+.orderItemProductLink{
+	color: #666666;
+	display: block;
+}
+a.orderItemProductLink:hover{
+	color: #666666;
+	text-decoration: underline;
+}
+span.orderItemProductPrice, span.orderItemProductNumber{
+	color: #000000;
+}
+.orderItemUnitSum{
+	color: #CC0000;
+	font-weight: bold;
+}
+/*第一列和最后一列无下边框*/
+td.orderItemFirstTD, td.orderItemLastTD{
+	border-bottom: 0px solid black !important;
+	
+}
+.orderItemDeliveryLabel{
+	color: #666666;
+	font-family: 宋体;
+	font-size: 12px;
+	font-weight: normal;
+}
+.orderItemDeliverySelect{
+	width: 100px;
+	height: 23px;
+}
+.orderItemSumDiv{
+	padding: 20px;
+	/*内边距：20px*/
+	border-top: 2px solid #B4D0FF;
+	/*上边框*/
+	background-color: #F2F6FF;
+	/*背景色: #F2F6FF*/
+	height: 50px;
+	/*高度: 50px*/
+}
+.leaveMessageText{
+	display: inilne-block;
+	/*示为内联块元素*/
+	margin-right: 10px;
+	/*右外边距*/
+	float: left;
+	/*向左漂浮，这样可以水平摆放*/
+}
+.orderItemTotalSumDiv{
+	margin: 40px;
+	height: 40px;
+}
+.submitOrderDiv{
+	height: 40px;
+	margin: 20px 0px;
+}
+.orderItemTotalSumDiv span{
+	color: #999999;
+}
+.orderItemTotalSumSpan{
+	color: #C40000 !important;
+	/*字体颜色: #C40000 !important*/
+	font-size: 22px;
+	/*字体大小: 22px*/
+	font-weight: bold;
+	/*粗体*/
+	border-bottom: 1px dotted #F2F6FF;
+	/*下边框*/
+}
+.submitOrderButton{
+	border:1px solid #C40000;
+	background-color: #C40000;
+	text-align: center;
+	line-height: 40px;/*文本垂直居中*/
+	float: right;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	display: inline-block;
+	margin: 0px 10px;
+	width: 180px;
+	height: 40px;
+}
+body{
+	font-size: 12px;
+	font-family: Arial;
+}

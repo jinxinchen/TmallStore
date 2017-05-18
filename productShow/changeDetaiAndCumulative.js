@@ -1,0 +1,11 @@
+$(function(){
+	$("div.productReviewDiv").hide();
+	$(".productDetailTopReviewLink").click(function(){
+		$("div.productReviewDiv").show();
+		$("div.productDetailDiv").hide();
+	});
+	$("a.productReviewTopPartSelectedLink").click(function(){
+		$("div.productReviewDiv").hide();
+		$("div.productDetailDiv").show();		
+	});
+})

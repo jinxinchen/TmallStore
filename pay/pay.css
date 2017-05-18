@@ -1,0 +1,36 @@
+body{
+	font-size: 12px;
+	/*把所有文字的大小调成12px,这是天猫默认的文字大小*/
+	font-family: Arial;
+}
+.aliPayPageDiv{
+	text-align: center;
+	padding-bottom: 40px;
+	max-width: 1013px;
+	margin: 10px auto;
+}
+.aliPayPageLogo{
+	margin: 20px;
+}
+.confirmMoneyText{
+	color: #4D4D4D;
+}
+.confirmMoney{
+	display: block;
+	/*以块状显示，自动换行, 并且可以修改宽度*/
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+.confirmPay{
+	background-color: #00AAEE;
+	border:1px solid #00AAEE;
+	text-align: center;
+	line-height: 31px;
+	font-size: 14px;
+	font-weight: 700px;
+	color: white;
+	width: 107px;
+	margin-top: 20px;
+}
